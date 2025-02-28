@@ -1,0 +1,4 @@
+SELECT id, 
+       CAST(AES_DECRYPT(first_name, 'clave_secreta') AS CHAR) AS first_name, 
+       CAST(AES_DECRYPT(last_name, 'clave_secreta') AS CHAR) AS last_name 
+FROM usuarios;
