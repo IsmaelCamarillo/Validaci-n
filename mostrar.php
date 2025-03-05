@@ -1,9 +1,9 @@
 <?php
 // Conexión a la base de datos
-$servername = "fdb1028.awardspace.net";
-$username = "4595736_validacion"; 
-$password = "1234567890a"; 
-$dbname = "4595736_validacion"; 
+$servername = "localhost";
+$username = "root"; 
+$password = ""; 
+$dbname = "validacion"; 
 
 $conn = new mysqli($servername, $username, $password, $dbname);
 
